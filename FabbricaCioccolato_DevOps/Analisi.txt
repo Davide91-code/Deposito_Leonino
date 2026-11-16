@@ -1,0 +1,43 @@
+STRUTTURA DEL PROGRAMMA - Fabbrica di cioccolato.
+
+
+Il programma sarà organizzato attraverso una classe base chiamata Cioccolato, dalla quale deriveranno tre classi specializzate: Cioccolatino, Tavoletta e CioccolatoCaldo.
+
+La classe Cioccolato conterrà le caratteristiche comuni a tutti i prodotti, come il tipo di cioccolato e la percentuale di cacao, oltre al metodo produce().
+
+Le classi derivate avranno caratteristiche specifiche:
+
+Cioccolatino: forma e ripieno.
+
+Tavoletta: peso e presenza di eventuali ingredienti aggiuntivi, come nocciole, mandorle e biscotti.
+
+CioccolatoCaldo: temperatura e densità.
+
+
+Ogni classe derivate implementerà una propria versione del metodo produce(), attraverso l'override, per descrivere le caratteristiche e le modalità di produzione del prodotto.
+
+
+REGOLE DI PRODUZIONE
+
+La fabbrica potrà produrre un massimo di 100 unità di cioccolato al giorno.
+
+I costi di produzione previsti sono:
+
+Cioccolatino: 2.
+
+Tavoletta: da 4 a 24, in base alla grandezza.
+
+Cioccolato caldo: minimo 20.
+
+Al raggiungimento del limite giornaliero, la fabbrica terminerà la produzione, stamperà un resoconto e richiederà se si desidera continuare.
+
+
+ORGANIZZAZIONE DEL LAVORO
+
+Lo sviluppo sarà suddiviso in tre fasi, ciascuna registrata attraverso un commit Git:
+
+Primo commit – Analisi: descrizione dell'obiettivo, individuazione delle classi e pianificazione del lavoro.
+
+Secondo commit – Struttura: creazione delle classi, definizione degli attributi e dei metodi.
+
+Terzo commit – Implementazione: sviluppo delle funzionalità, realizzazione del main e verifica del funzionamento.
