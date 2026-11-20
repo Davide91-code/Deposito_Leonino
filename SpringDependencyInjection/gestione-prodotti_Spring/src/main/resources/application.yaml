@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: gestione-prodotti_Spring
